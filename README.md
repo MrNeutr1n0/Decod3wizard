@@ -2,6 +2,7 @@
 
 **Decod3wizard** is a Python script that simplifies the process of identifying and decoding various hashes and encodings. Whether you're dealing with cryptographic hashes, Base64 encoding, URL encoding, or even more complex schemes like ROT13 or hexadecimal encoding, Decod3wizard can handle it all. You can use it in single mode for quick identification and decoding or enter the world of magic mode for continuous, recursive decoding.
 
+![Decod3Wizard](/images/1.png)
 
 
 ## Features
@@ -9,6 +10,9 @@
 - Identify and decode a wide range of hash types and encoding schemes.
 - Choose between single mode and magic mode for different use cases.
 - Automatically continues to decode until a final readable value is found.
+
+## Demo Output
+![Decod3Wizard](/images/4.png)
 
 ## Installation
 
@@ -50,6 +54,8 @@ In Single Mode, simply enter the hash or encoded value, and Decod3wizard will id
 Enter the hash or encoded value: <your_value>
 ```
 
+![Decod3Wizard](/images/2.png)
+
 ### Magic Mode
 
 In Magic Mode, the script will continuously decode the value you provide, attempting to find the final readable result.
@@ -57,6 +63,8 @@ In Magic Mode, the script will continuously decode the value you provide, attemp
 ```bash
 Enter the hash or encoded value: <your_value>
 ```
+
+![Decod3Wizard](/images/3.png)
 
 ## Contributing
 
